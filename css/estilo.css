@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+}
+h1{
+    text-transform: uppercase;
+    color: black;
+}
+ul{
+    display: flex;
+    
+}
+
+li{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-left: 15px;
+    color: white;
+}
+
+.contenido{
+    height: 200vh;
+    background-color: bisque;
+    padding-top: 100px;
+}
